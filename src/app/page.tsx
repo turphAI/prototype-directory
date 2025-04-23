@@ -10,7 +10,7 @@ export default function Home() {
         <Card>
           <CardHeader>
             <CardTitle>Framework</CardTitle>
-            <CardDescription>Base component and styling setup.</CardDescription>
+            <CardDescription>LeftNav & UtillityNav</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <ProjectRow 
@@ -24,7 +24,7 @@ export default function Home() {
         <Card>
           <CardHeader>
             <CardTitle>Search Experience</CardTitle>
-            <CardDescription>Prototype for search functionality.</CardDescription>
+            <CardDescription>CDE: Conversational Discovery Experience</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <ProjectRow 
