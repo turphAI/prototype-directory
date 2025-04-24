@@ -14,9 +14,10 @@ export default function Home() {
           </CardHeader>
           <CardContent className="space-y-2">
             <ProjectRow 
-              projectName="Main Framework" 
-              projectDescription="Core layout and utilities"
+              projectName="Wireframe" 
+              projectDescription="What are the base parts of a response?"
               buttonText="View"
+              projectUrl="https://response-framework.vercel.app/"
             />
           </CardContent>
         </Card>
@@ -49,6 +50,20 @@ export default function Home() {
              <ProjectRow 
               projectName="aBot Advanced" 
               projectDescription="Chat with context memory"
+              buttonText="View"
+            />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Responses</CardTitle>
+            <CardDescription>Prototypes related to response generation/display.</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-2">
+            <ProjectRow 
+              projectName="overall structure" 
+              projectDescription="Layout and flow of responses"
               buttonText="View"
             />
           </CardContent>
