@@ -9,12 +9,12 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card>
           <CardHeader>
-            <CardTitle>Framework</CardTitle>
-            <CardDescription>Base component and styling setup.</CardDescription>
+            <CardTitle>Frameworks</CardTitle>
+            <CardDescription>High level structures and experience</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <ProjectRow 
-              projectName="Wireframe" 
+              projectName="Basic response wireframe" 
               projectDescription="What are the base parts of a response?"
               buttonText="View"
               projectUrl="https://response-framework.vercel.app/"
