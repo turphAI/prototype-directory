@@ -9,15 +9,33 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card>
           <CardHeader>
-            <CardTitle>Framework</CardTitle>
-            <CardDescription>LeftNav & UtillityNav</CardDescription>
+            <CardTitle>Frameworks</CardTitle>
+            <CardDescription>High level structures and experience</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <ProjectRow 
-              projectName="Wireframe" 
+              projectName="Response: Basic wireframe" 
               projectDescription="What are the base parts of a response?"
               buttonText="View"
               projectUrl="https://response-framework.vercel.app/"
+            />
+            <ProjectRow 
+              projectName="FA: Container sidecar" 
+              projectDescription="When the FA is imbedded in the page"
+              buttonText="View"
+              projectUrl=""
+            />
+            <ProjectRow 
+              projectName="FA: Container A2" 
+              projectDescription="When the FA is above the page"
+              buttonText="View"
+              projectUrl=""
+            />
+            <ProjectRow 
+              projectName="FA: Discovery Experience" 
+              projectDescription="When the view is full conversation"
+              buttonText="View"
+              projectUrl=""
             />
           </CardContent>
         </Card>
@@ -32,6 +50,7 @@ export default function Home() {
               projectName="Search V1" 
               projectDescription="Initial search bar and results"
               buttonText="View"
+              projectUrl="https://ui-shadcn-three.vercel.app/"              
             />
           </CardContent>
         </Card>
