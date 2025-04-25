@@ -20,19 +20,19 @@ export default function Home() {
               projectUrl="https://response-framework.vercel.app/"
             />
             <ProjectRow 
-              projectName="FA: Container sidecar" 
+              projectName="AI: Container sidecar" 
               projectDescription="When the FA is imbedded in the page"
               buttonText="View"
               projectUrl=""
             />
             <ProjectRow 
-              projectName="FA: Container A2" 
+              projectName="AI: Container A2" 
               projectDescription="When the FA is above the page"
               buttonText="View"
               projectUrl=""
             />
             <ProjectRow 
-              projectName="FA: Discovery Experience" 
+              projectName="AI: Discovery Experience" 
               projectDescription="When the view is full conversation"
               buttonText="View"
               projectUrl=""
@@ -57,17 +57,17 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <CardTitle>aBot Experience</CardTitle>
+            <CardTitle>fBot Experience</CardTitle>
             <CardDescription>Chatbot interaction prototype.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <ProjectRow 
-              projectName="aBot Chat UI" 
+              projectName="fBot Chat UI" 
               projectDescription="Basic chat interface"
               buttonText="View"
             />
              <ProjectRow 
-              projectName="aBot Advanced" 
+              projectName="fBot Advanced" 
               projectDescription="Chat with context memory"
               buttonText="View"
             />
