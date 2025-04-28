@@ -35,7 +35,7 @@ export default function Home() {
               projectName="AI: Immersive Experience" 
               projectDescription="When the display is a full conversation"
               buttonText="View"
-              projectUrl=""
+              projectUrl="https://immersive-bay.vercel.app/"
             />
           </CardContent>
         </Card>
@@ -46,6 +46,12 @@ export default function Home() {
             <CardDescription>CDE: Conversational Discovery Experience</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
+          <ProjectRow 
+              projectName="Search V2" 
+              projectDescription="Evolution of CDE prototype"
+              buttonText="View"
+              projectUrl=""              
+            />
             <ProjectRow 
               projectName="Search V1" 
               projectDescription="Initial search bar and results"
@@ -76,14 +82,27 @@ export default function Home() {
 
         <Card>
           <CardHeader>
-            <CardTitle>Responses</CardTitle>
-            <CardDescription>Prototypes related to response generation/display.</CardDescription>
+            <CardTitle>AI-Search invocation</CardTitle>
+            <CardDescription>AI-Search from the header.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <ProjectRow 
-              projectName="overall structure" 
-              projectDescription="Layout and flow of responses"
+              projectName="Combo" 
+              projectDescription="Search and AI invocation both in one control"
               buttonText="View"
+              projectUrl=""              
+            />
+            <ProjectRow 
+              projectName="Separate" 
+              projectDescription="A search control and a AI icon side by side"
+              buttonText="View"
+              projectUrl=""              
+            />
+            <ProjectRow 
+              projectName="Icon only" 
+              projectDescription="A search icon only"
+              buttonText="View"
+              projectUrl=""              
             />
           </CardContent>
         </Card>
