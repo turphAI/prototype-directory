@@ -29,7 +29,7 @@ export default function Home() {
               projectName="AI: Embedded container" 
               projectDescription="When the display is imbedded in the page"
               buttonText="View"
-              projectUrl=""
+              projectUrl="https://full-height-layer.vercel.app/"
             />
             <ProjectRow 
               projectName="AI: Immersive Experience" 
