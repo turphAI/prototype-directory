@@ -20,20 +20,20 @@ export default function Home() {
               projectUrl="https://response-framework.vercel.app/"
             />
             <ProjectRow 
-              projectName="AI: Container sidecar" 
-              projectDescription="When the FA is imbedded in the page"
+              projectName="AI: Floating container" 
+              projectDescription="When the display is above the page"
+              buttonText="View"
+              projectUrl="https://floating-chi.vercel.app/"
+            />
+            <ProjectRow 
+              projectName="AI: Embedded container" 
+              projectDescription="When the display is imbedded in the page"
               buttonText="View"
               projectUrl=""
             />
             <ProjectRow 
-              projectName="AI: Container A2" 
-              projectDescription="When the FA is above the page"
-              buttonText="View"
-              projectUrl=""
-            />
-            <ProjectRow 
-              projectName="AI: Discovery Experience" 
-              projectDescription="When the view is full conversation"
+              projectName="AI: Immersive Experience" 
+              projectDescription="When the display is a full conversation"
               buttonText="View"
               projectUrl=""
             />
