@@ -87,22 +87,10 @@ export default function Home() {
           </CardHeader>
           <CardContent className="space-y-2">
             <ProjectRow 
-              projectName="Combo" 
-              projectDescription="Search and AI invocation both in one control"
+              projectName="Header control" 
+              projectDescription="Header nav exploration (v1)"
               buttonText="View"
-              projectUrl=""              
-            />
-            <ProjectRow 
-              projectName="Separate" 
-              projectDescription="A search control and a AI icon side by side"
-              buttonText="View"
-              projectUrl=""              
-            />
-            <ProjectRow 
-              projectName="Icon only" 
-              projectDescription="A search icon only"
-              buttonText="View"
-              projectUrl=""              
+              projectUrl=""
             />
           </CardContent>
         </Card>
