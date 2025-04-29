@@ -90,7 +90,7 @@ export default function Home() {
               projectName="Header control" 
               projectDescription="Header nav exploration (v1)"
               buttonText="View"
-              projectUrl=""
+              projectUrl="https://invocation-v1.vercel.app/"
             />
           </CardContent>
         </Card>
