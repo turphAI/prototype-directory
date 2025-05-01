@@ -50,7 +50,7 @@ export default function Home() {
               projectName="Search V2" 
               projectDescription="Evolution of CDE prototype"
               buttonText="View"
-              projectUrl=""              
+              projectUrl="https://searchv2.vercel.app/"              
             />
             <ProjectRow 
               projectName="Search V1" 
