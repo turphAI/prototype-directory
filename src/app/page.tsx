@@ -47,6 +47,12 @@ export default function Home() {
           </CardHeader>
           <CardContent className="space-y-2">
           <ProjectRow 
+              projectName="Search V3" 
+              projectDescription="Search/Research CDE prototype"
+              buttonText="View"
+              projectUrl="https://searchv3-delta.vercel.app/"              
+            />
+          <ProjectRow 
               projectName="Search V2" 
               projectDescription="Evolution of CDE prototype"
               buttonText="View"
