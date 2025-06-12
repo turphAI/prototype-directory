@@ -47,6 +47,12 @@ export default function Home() {
           </CardHeader>
           <CardContent className="space-y-2">
           <ProjectRow 
+              projectName="Search V4" 
+              projectDescription="Search/Research CDE"
+              buttonText="View"
+              projectUrl="#"              
+            />
+          <ProjectRow 
               projectName="Search V3" 
               projectDescription="Search/Research CDE prototype"
               buttonText="View"
